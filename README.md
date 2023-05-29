@@ -19,4 +19,4 @@ This repository contains 6 Jupyter notebooks, which contain the Python and R cod
 
 ## Data
 
-Due to copyright restrictions, the full texts and segments of the King, Straub, Harris, and Koontz books used in our experiments cannot openly be shared.
+Due to copyright restrictions, the full texts and segments of the King, Straub, Harris, and Koontz books used in our experiments cannot openly be shared. All data used for analyses in these notebooks can be found at https://doi.org/10.5281/zenodo.7956049
