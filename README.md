@@ -14,9 +14,8 @@ This repository contains 7 Jupyter notebooks, which contain the Python and R cod
 - `1-o2-classifier`: Python code to get the cosine similarity (based on a large bootstrapped feature space) of each Bachman segment to a randomly-sampled segment by each author. Cosine distances are converted to ranks, where 1=most similar, and 4=least similar. 
 - `2a-author_ranks_statistical_testing`: R code to test the significance of correlations between author and similarity ranking to Bachman segments.
 - `2b-authors_ranks_proportions`: Python code to convert raw counts of similarity rankings extracted in `1-o2-classifier` to proportions.
-- `3-PCA_functionwords`: Python code to vectorize full texts using function words as features (excluded words begin with a "#". Personal pronouns are also excluded and end with a "-"). PCA is performed on these vectors to visualize resulting clusters alongside function words. 
-- `4-cultural_references`: Python code to turn full texts into SpaCy docs and count the number of cultural references (extracted manually from Bachman books) in 10,000-token randomly-sampled segments in each doc. 
-- `5-cultural_references_statistical_testing`: R code to test whether cultural reference counts are singificantly higher in Bachman segments compared to segments by other authors in the corpus (King, Koontz, Straub, and Harris). Entity counts in King segments are also compared to entity counts in Koontz, Straub, and Harris segments. 
+- `3-cultural_references`: Python code to turn full texts into SpaCy docs and count the number of cultural references (extracted manually from Bachman books) in 10,000-token randomly-sampled segments in each doc. 
+- `4-cultural_references_statistical_testing`: R code to test whether cultural reference counts are singificantly higher in Bachman segments compared to segments by other authors in the corpus (King, Koontz, Straub, and Harris). Entity counts in King segments are also compared to entity counts in Koontz, Straub, and Harris segments. 
 
 ## Data
 
