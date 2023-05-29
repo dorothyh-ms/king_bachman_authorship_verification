@@ -9,7 +9,7 @@ This repository contains the code accompanying the following paper:
 
 ## Code
 
-This repository contains 7 Jupyter notebooks, which contain the Python and R code used for our analysis: 
+This repository contains 6 Jupyter notebooks, which contain the Python and R code used for our analysis: 
 - `0-authorship-data-prep`: Python code for dividing each book's TXT file into 1,000-, 5,000-, and 10,000-token segments. The notebook also contains code to get the 300 most common words (used for our PCA analysis section) and descriptive statistics (wordcount, type-token ratios) on each book. 
 - `1-o2-classifier`: Python code to get the cosine similarity (based on a large bootstrapped feature space) of each Bachman segment to a randomly-sampled segment by each author. Cosine distances are converted to ranks, where 1=most similar, and 4=least similar. 
 - `2a-author_ranks_statistical_testing`: R code to test the significance of correlations between author and similarity ranking to Bachman segments.
